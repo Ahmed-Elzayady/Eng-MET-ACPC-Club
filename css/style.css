@@ -110,7 +110,7 @@ body {
 
 /* start nav bar */
 nav {
-  /* background-color: #ffffff28; */
+  background-color: #ffffff28;
   position: sticky;
   top: 0;
   z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999;
@@ -299,7 +299,7 @@ p#animation {
 }
 } */
 .back {
-  background-image: url(../images/tthh.png);
+  background-image: url(../images/thh.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -543,12 +543,12 @@ p#animation {
   }
 
   .landing .container .all-cont .text {
-    transform: translate(-50%, -11%);
-    -webkit-transform: translate(-50%, -11%);
-    -moz-transform: translate(-50%, -11%);
-    -ms-transform: translate(-50%, -11%);
-    -o-transform: translate(-50%, -11%);
-}
+    transform: translate(-50%, -5%);
+    -webkit-transform: translate(-50%, -5%);
+    -moz-transform: translate(-50%, -5%);
+    -ms-transform: translate(-50%, -5%);
+    -o-transform: translate(-50%, -5%);
+  }
 }
 /* end about section */
 
