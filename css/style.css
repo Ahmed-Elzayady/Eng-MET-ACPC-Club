@@ -110,7 +110,7 @@ body {
 
 /* start nav bar */
 nav {
-  background-color: #ffffff28;
+  /* background-color: #ffffff28; */
   position: sticky;
   top: 0;
   z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999;
@@ -299,7 +299,7 @@ p#animation {
 }
 } */
 .back {
-  background-image: url(../images/thh.png);
+  background-image: url(../images/tthh.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
