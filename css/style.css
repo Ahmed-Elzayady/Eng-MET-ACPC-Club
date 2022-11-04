@@ -543,12 +543,12 @@ p#animation {
   }
 
   .landing .container .all-cont .text {
-    transform: translate(-50%, -5%);
-    -webkit-transform: translate(-50%, -5%);
-    -moz-transform: translate(-50%, -5%);
-    -ms-transform: translate(-50%, -5%);
-    -o-transform: translate(-50%, -5%);
-  }
+    transform: translate(-50%, -11%);
+    -webkit-transform: translate(-50%, -11%);
+    -moz-transform: translate(-50%, -11%);
+    -ms-transform: translate(-50%, -11%);
+    -o-transform: translate(-50%, -11%);
+}
 }
 /* end about section */
 
