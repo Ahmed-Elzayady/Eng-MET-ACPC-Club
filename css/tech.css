@@ -284,6 +284,18 @@ hr {
   margin-bottom: 80px;
 }
 
+@media(max-width: 767px) 
+{
+  h1 {
+    font-size: 54px !important;
+  }
+
+  hr {
+    width: 280px;
+    height: 1px;
+  }
+}
+
 .video video {
   max-width: 100%;
   min-width: auto;

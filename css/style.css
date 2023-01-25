@@ -412,6 +412,8 @@ ul li a:hover {
   .landing .container .all-cont {
     display: block;
   }
+
+  
 }
 
 .easy a {
@@ -1149,4 +1151,12 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+@media(max-width: 767px) 
+{
+  
+  .team .logos img {
+    padding: 0;
+  }
 }
