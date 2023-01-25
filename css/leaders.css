@@ -16,7 +16,7 @@ body {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  /* user-select: none; */
+  user-select: none;
 }
 
 .container {
@@ -53,45 +53,46 @@ body {
 
 @keyframes down {
   0% {
-    transform: translate(0px);
-    -webkit-transform: translate(0px);
-    -moz-transform: translate(0px);
-    -ms-transform: translate(0px);
-    -o-transform: translate(0px);
-  }
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
 
   100% {
-    transform: translate(10px);
-    -webkit-transform: translate(10px);
-    -moz-transform: translate(10px);
-    -ms-transform: translate(10px);
-    -o-transform: translate(10px);
-  }
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+}
 }
 .up a i {
-  color: var(--main-color);
-  font-size: 50px;
-  /* background-color: var(--main-color); */
-  width: 40px;
-  height: 40px;
-  padding: 5px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation-name: down;
-  animation-duration: 0.5s;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-direction: alternate-reverse;
-  z-index: 23456748678974894;
+  color: var(--sec-color);
+    background-color: var(--main-color);
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: down;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate-reverse;
+    z-index: 23456748678974894;
+
 }
 
 .up i:hover {
@@ -245,6 +246,7 @@ ul li a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 50px;
+  margin-bottom: 60px;
 }
 
 .leaders .container .all-members .elmy-img img {
@@ -252,13 +254,15 @@ ul li a:hover {
 }
 .leaders .container .all-members .elmy {
   text-align: center;
-  border: 2px solid var(--main-color);
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-  overflow: hidden;
+    background-color: #fff;
+    /* border: 2px solid var(--main-color); */
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 2px rgb(0 0 0 / 2%), 0 8px 6px rgb(0 0 0 / 3%), 0 16px 10px rgb(0 0 0 / 4%), 0 26px 18px rgb(0 0 0 / 5%);
 }
 
 h1 {
@@ -313,7 +317,8 @@ h3 {
 .fa-facebook-f:hover,
 .fa-linkedin:hover,
 .fa-github:hover,
-.fa-envelope:hover {
+.fa-envelope:hover,
+.fa-whatsapp-square:hover {
   transform: rotate(730deg);
   -webkit-transform: rotate(730deg);
   -moz-transform: rotate(730deg);

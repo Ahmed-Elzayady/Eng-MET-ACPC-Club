@@ -241,11 +241,16 @@ ul li a:hover {
   }
 }
 /* end nav bar section */
-
+.leaders {
+  margin-bottom: 100px;
+}
 .leaders .container .all-members {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 40px;
+}
+.leaders .container {
+  max-width: 80%;
 }
 
 .leaders .container .all-members .elmy-img img {
@@ -261,10 +266,8 @@ ul li a:hover {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 4px 2px rgba(0,0,0,0.02),
-  0 8px 6px rgba(0,0,0,0.03),
-  0 16px 10px rgba(0,0,0,0.04),
-  0 26px 18px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.02), 0 8px 6px rgba(0, 0, 0, 0.03),
+    0 16px 10px rgba(0, 0, 0, 0.04), 0 26px 18px rgba(0, 0, 0, 0.05);
 }
 
 h1 {
@@ -280,7 +283,6 @@ hr {
   height: 3px;
   margin-bottom: 80px;
 }
-
 
 .video video {
   max-width: 100%;
@@ -300,7 +302,7 @@ hr {
 h3 {
   color: #888;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .fa-facebook-f {
