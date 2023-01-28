@@ -80,11 +80,11 @@ body {
 
 /* icon of row to top */
 .up a i {
-  color: var(--main-color);
-  font-size: 50px;
+  color: var(--sec-color);
+  font-size: 25px;
   /* background-color: var(--main-color); */
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   padding: 5px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -103,6 +103,7 @@ body {
   animation-play-state: running;
   animation-direction: alternate-reverse;
   z-index: 23456748678974894;
+  background-color: var(--main-color);
 }
 
 .up i:hover {
@@ -265,36 +266,6 @@ ul li a:hover {
   margin-top: 150px;
   /* overflow:hidden */
 }
-/* @keyframes back {
-  0% {
-    background-image: url(../images/oo.png);
-    transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-    
-}
-
-  50% {
-    background-image: url(../images/tt.png);
-    transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-    
-}
-  100% {
-    background-image: url(../images/thh.png);
-    transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-    
-}
-} */
 .back {
   background-image: url(../images/tthh.png);
   background-size: cover;
@@ -477,34 +448,7 @@ ul li a:hover {
   -ms-transform: rotateY(0deg);
   -o-transform: rotateY(0deg);
 }
-/* .easy a::before {
-  content: "click me";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--main-color);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top:0;
-  transform: scale(0);
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transition: 0.4s;
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
-  color: #fff;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-} */
+
 
 .easy a:hover::before {
   transform: scale(1);
@@ -518,11 +462,6 @@ ul li a:hover {
 /* start about section */
 .about {
   margin-top: 100px;
-  /* background-image: url(../images/meetings-bg.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat; */
 }
 
 .about .container h1 {
@@ -619,7 +558,7 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: var(--sec-color);
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -630,7 +569,7 @@ img {
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
-  background-color: var(--sec-color);
+  background-color: #0000006b;
   margin: 10px;
 }
 
@@ -638,10 +577,7 @@ img {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-/* .prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-} */
+
 
 .numbertext {
   color: #f2f2f2;
@@ -723,11 +659,6 @@ img {
 }
 
 .team .container .super {
-  /* display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 100px !important ; */
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 50px;
@@ -744,7 +675,6 @@ img {
 .team .container .super .social {
   text-align: center;
   padding: 30px;
-  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
 }
 
 .team .container .super .social i {
